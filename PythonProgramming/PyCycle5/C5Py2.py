@@ -6,7 +6,7 @@ from datetime import datetime
 current_datetime = datetime.now()
 
 
-print("a) Current date and time:", current_datetime.strftime("%Y-%m-%d %H:%M:%S"))
+print("a) Current date and time:", current_datetime.strftime("%d-%m-%Y %H:%M:%S"))
 print("b) Current Year:", current_datetime.year)
 print("c) Month of the year:", current_datetime.strftime("%B"))
 print("d) Week number of the year:", current_datetime.strftime("%U"))
