@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Background color</title>
+</head>
+<body>
+<h1 align='center'>Change Background color</h1><br>
+<br>
+<br>
+<br>
+<center><button id="colorButton" align="center">Change the Background color</button></center>
+<script>
+var button = document.getElementById('colorButton');
+button.addEventListener('click',function()
+{
+ document.body.style.backgroundColor = 'red';
+ });
+ button.addEventListener('dblclick',function()
+ {
+  document.body.style.backgroundColor = 'green';
+  });
+  </script>
+  </body>
+  </html>
